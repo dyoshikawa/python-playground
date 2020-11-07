@@ -12,7 +12,3 @@ class SampleUseCase(metaclass=ABCMeta):
 class SampleUseCaseImpl(SampleUseCase):
     def execute(self) -> str:
         return "hello"
-
-
-if __name__ == "__main__":
-    unittest.main()
