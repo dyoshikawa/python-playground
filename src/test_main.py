@@ -1,6 +1,6 @@
 from unittest import main, TestCase
 from unittest.mock import MagicMock, patch
-from main import SampleUseCase
+from sample_use_case import SampleUseCase
 
 
 class TestSampleUseCase(TestCase):
