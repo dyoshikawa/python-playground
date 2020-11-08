@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "python-playground"
+version = "0.1.0"
+description = ""
+authors = ["dyoshikawa <dyoshikawa1993@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.8.3"
+boto3 = "^1.16.13"
+boto3-stubs = {extras = ["dynamodb"], version = "^1.16.13"}
+
+[tool.poetry.dev-dependencies]
+python-dotenv = "^0.15.0"
+flake8 = "^3.8.4"
+mypy = "^0.790"
+black = "^20.8b1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -4,11 +4,14 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+boto3 = "*"
+boto3-stubs = {extras = ["dynamodb", "s3"], version = "*"}
 
 [dev-packages]
 flake8 = "*"
 mypy = "*"
 black = "==20.8b1"
+python-dotenv = "*"
 
 [requires]
 python_version = "3.8.3"
